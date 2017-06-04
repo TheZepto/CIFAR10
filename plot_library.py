@@ -36,3 +36,5 @@ def save_confusion_matrix(cm, classes, index,
 
     filename = 'saved_figures/figure_%03d.png' % index
     plt.savefig(filename, format= 'png')
+
+    plt.close()
