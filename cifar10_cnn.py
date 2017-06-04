@@ -18,7 +18,6 @@ from sklearn.metrics import confusion_matrix
 from plot_library import save_confusion_matrix
 import numpy as np
 
-
 batch_size = 32
 num_classes = 10
 epochs = 100

@@ -1,13 +1,13 @@
 from matplotlib import pyplot as plt
 import numpy as np
 
-# Plot the confusion matrix
+# Save the confusion matrix
 # Updated function from the scikit-learn confusion matrix example
 def save_confusion_matrix(cm, classes, index,
                           normalize=False,
                           cmap=plt.cm.Blues):
     """
-    This function prints and plots the confusion matrix.
+    This function saves the confusion matrix.
     Normalization can be applied by setting `normalize=True`.
     """
     plt.figure() #Generate a new plot
